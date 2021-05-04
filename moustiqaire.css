@@ -1,0 +1,44 @@
+body{
+  background-color: #303C6C;
+}
+h1{
+  text-align: center;
+}
+
+.m {
+  height: 50px;
+  width: 50px;
+}
+nav ul{
+  display: flex;
+  padding-left: 0;
+
+
+}
+nav ul a{
+  color:#BADFE5;
+  list-style-type: none;
+  padding:7px 10px;
+  border: 4px solid black;
+  border-left: none;
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: #303C6C;
+}
+nav ul a:first-child {
+  border-left: 4px solid black;
+}
+nav ul a:hover{
+  color: BLACK;
+  background-color: #BADFE5;
+}
+/*
+#FBE8A6
+#F4976C
+#303C6C
+#BADFE5
+#D2FDFF
+
+*/
