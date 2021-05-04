@@ -34,6 +34,17 @@ nav ul a:hover{
   color: BLACK;
   background-color: #BADFE5;
 }
+div{
+  border: 5px solid green;
+  display: flex;
+  width: 100%;
+}
+section{
+  border: 5px solid pink;
+}
+footer{
+  text-align: center;
+}
 /*
 #FBE8A6
 #F4976C
