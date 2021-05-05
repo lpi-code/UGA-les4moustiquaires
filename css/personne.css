@@ -34,34 +34,29 @@ nav ul a:hover{
   color: BLACK;
   background-color: #BADFE5;
 }
-div{
-  /*border: 5px solid green;*/
-  display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
+
+div {
+  display: block;
 }
-div img{
-  width: 100px;
-  height: 100px;
+article img{
+  width: 40%;
+  height: auto;
   padding-top: 50px;
-}
-article{
-  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
-section{
-  /*  border: 5px solid pink;*/
+article div{
   width: 50%;
+  margin-top: auto;
+  margin-bottom: 0;
+
 }
+
 footer{
   text-align: center;
 }
-p{
-  padding-right: 100px;
-}
-.p2 {
-  padding-top: 50px;
-}
+
 /*
 #FBE8A6
 #F4976C
@@ -70,3 +65,22 @@ p{
 #D2FDFF
 
 */
+article {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+article:nth-child(even) {
+  flex-direction: row-reverse;
+
+}
+main {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
