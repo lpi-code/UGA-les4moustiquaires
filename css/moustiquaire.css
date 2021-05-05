@@ -1,5 +1,5 @@
 body{
-  background-color: #303C6C;
+  background-color: #FBE8A6;
 }
 h1{
   text-align: center;
@@ -16,7 +16,7 @@ nav ul{
 
 }
 nav ul a{
-  color:#BADFE5;
+  color:#F4976C;
   list-style-type: none;
   padding:7px 10px;
   border: 4px solid black;
@@ -25,14 +25,14 @@ nav ul a{
   width: 100%;
   justify-content: center;
   text-align: center;
-  background-color: #303C6C;
+  background-color: #D2FDFF;
 }
 nav ul a:first-child {
   border-left: 4px solid black;
 }
 nav ul a:hover{
-  color: BLACK;
-  background-color: #BADFE5;
+  color: #303C6C;
+  background-color: #F4976C;
 }
 div{
   /*border: 5px solid green;*/
@@ -65,11 +65,11 @@ padding-top: 50px;
   padding-top: 50px;
 }
 /*
-#FBE8A6
-#F4976C
-#303C6C
-#BADFE5
-#D2FDFF
+#FBE8A6 - désert
+#F4976C - mesa
+#303C6C - bleu immonde
+#BADFE5 - bleu clair
+#D2FDFF - bleu clair + clair
 
 */
 img:hover {
