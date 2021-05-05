@@ -38,15 +38,9 @@ nav ul a:hover{
 div {
   display: block;
 }
-<<<<<<< HEAD
-div img{
-  width: 250px;
-  height: 250px;
-=======
 article img{
   width: 40%;
   height: auto;
->>>>>>> 1b5db4fd3724a767807b3646910de783314aa62e
   padding-top: 50px;
   margin-top: auto;
   margin-bottom: auto;
