@@ -1,5 +1,5 @@
 body{
-  background-color: #303C6C;
+  background-color: #FBE8A6;
 }
 h1{
   text-align: center;
@@ -41,8 +41,8 @@ div{
   padding-right: 10%;
 }
 div img{
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   padding-top: 50px;
 }
 article{
