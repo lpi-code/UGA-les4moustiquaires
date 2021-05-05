@@ -72,3 +72,7 @@ padding-top: 50px;
 #D2FDFF
 
 */
+img:hover {
+  transition :all 100s ;
+  transform: rotate(36000deg);
+}
