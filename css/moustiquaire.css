@@ -55,6 +55,15 @@ section{
 footer{
   text-align: center;
 }
+p{
+  padding-right: 100px;
+}
+.zuv{
+padding-top: 50px;
+}
+.p2 {
+  padding-top: 50px;
+}
 /*
 #FBE8A6
 #F4976C
