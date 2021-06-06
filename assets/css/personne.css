@@ -1,0 +1,23 @@
+
+
+
+footer{
+  text-align: center;
+}
+
+/*
+#FBE8A6
+#F4976C
+#303C6C
+#BADFE5
+#D2FDFF
+
+*/
+
+
+
+article {
+
+  transform: perspective();
+  transition: all 1s;
+}

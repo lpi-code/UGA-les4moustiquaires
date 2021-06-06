@@ -3,41 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
-    <link rel="stylesheet" href="css/personne.css">
+
+
   </head>
   <body>
-    <header>
-<h1><a href="moustiquaire.html"><img class="m" src="images/maison.png" ></a>LES 4 MOUSTIQUAIRES <img src="images/test.png" class="m"></h1>      <nav>
-        <ul>
-          <a href="manu.html">Manu</a>
-          <a href="macssou.html">Maxime</a>
-          <a href="L-za.html">Elsa</a>
-          <a href="kent1.html">Quentin</a>
-          <a href="register.html">register</a>
-        </ul>
-      </nav>
-    </header>
+
+    <?php
+    include 'assets/php/header.php';
+     ?>
+
     <main>
       <article>
         <div>
           <h2>Emma=new(L)</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <img src="images/manu.jpg">
+        <img src="assets/images/manu.jpg">
       </article>
       <article>
         <div>
           <h2>Manu-L</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <img src="images/manu.jpg">
+        <img src="assets/images/manu.jpg">
       </article>
+
+
     </main>
 
-    <footer>
-      <hr>
-      <h3>CONTACT US - sitemap</h3>
-    </footer>
+    <?php
+    include 'assets/php/footer.php';
+     ?>
   </body>
 </html>

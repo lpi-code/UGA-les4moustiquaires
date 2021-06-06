@@ -1,0 +1,47 @@
+h1{
+  text-align: center;
+}
+header em {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+header em img {
+  height: 50px;
+  width: 50px;
+}
+
+header nav {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+header nav ul{
+  display: flex;
+  padding-left: 0;
+
+
+}
+header nav ul a{
+  color:#BADFE5;
+  list-style-type: none;
+  padding:7px 10px;
+  border: 4px solid black;
+  border-left: none;
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: #303C6C;
+}
+header nav ul a:first-child {
+  border-left: 4px solid black;
+}
+header nav ul a:hover{
+  color: BLACK;
+  background-color: #BADFE5;
+}
